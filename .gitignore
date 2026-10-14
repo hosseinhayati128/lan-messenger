@@ -1,0 +1,28 @@
+# Runtime messages, uploaded files, and local configuration
+messenger-data/
+uploads/
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+storage.json
+migration.json
+.env
+.env.*
+!.env.example
+
+# Temporary verification fixtures, logs, and generated previews
+qa-*/
+*.log
+lan-messenger-preview.png
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+package-lock.json
+playwright-report/
+test-results/
+.DS_Store
+Thumbs.db
